@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5625F6961EDBF7D600B91D52 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5625F6951EDBF7D600B91D52 /* Photos.framework */; };
 		56C6E9F11ED738A600617969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6E9F01ED738A600617969 /* AppDelegate.swift */; };
 		56C6E9F31ED738A600617969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6E9F21ED738A600617969 /* ViewController.swift */; };
 		56C6E9F61ED738A600617969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C6E9F41ED738A600617969 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		56C6E9FB1ED738A600617969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C6E9F91ED738A600617969 /* LaunchScreen.storyboard */; };
 		56C6EA061ED738A600617969 /* VideoPlayRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6EA051ED738A600617969 /* VideoPlayRecordTests.swift */; };
 		56C6EA111ED738A600617969 /* VideoPlayRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6EA101ED738A600617969 /* VideoPlayRecordUITests.swift */; };
+		56C6EA251ED738FF00617969 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C6EA1F1ED738FF00617969 /* AssetsLibrary.framework */; };
+		56C6EA261ED738FF00617969 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C6EA201ED738FF00617969 /* AVFoundation.framework */; };
+		56C6EA271ED738FF00617969 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C6EA211ED738FF00617969 /* CoreMedia.framework */; };
+		56C6EA281ED738FF00617969 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C6EA221ED738FF00617969 /* MediaPlayer.framework */; };
+		56C6EA291ED738FF00617969 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C6EA231ED738FF00617969 /* MobileCoreServices.framework */; };
+		56C6EA2A1ED738FF00617969 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C6EA241ED738FF00617969 /* QuartzCore.framework */; };
+		56C6EA2C1ED73A1900617969 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6EA2B1ED73A1900617969 /* RecordVideoViewController.swift */; };
+		56C6EA2E1ED73A3000617969 /* MergeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6EA2D1ED73A3000617969 /* MergeVideoViewController.swift */; };
+		56C6EA301ED73A4200617969 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6EA2F1ED73A4200617969 /* PlayVideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5625F6951EDBF7D600B91D52 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		56C6E9ED1ED738A600617969 /* VideoPlayRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C6E9F01ED738A600617969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56C6E9F21ED738A600617969 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		56C6EA0C1ED738A600617969 /* VideoPlayRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C6EA101ED738A600617969 /* VideoPlayRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayRecordUITests.swift; sourceTree = "<group>"; };
 		56C6EA121ED738A600617969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C6EA1F1ED738FF00617969 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		56C6EA201ED738FF00617969 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		56C6EA211ED738FF00617969 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		56C6EA221ED738FF00617969 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		56C6EA231ED738FF00617969 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		56C6EA241ED738FF00617969 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		56C6EA2B1ED73A1900617969 /* RecordVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
+		56C6EA2D1ED73A3000617969 /* MergeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeVideoViewController.swift; sourceTree = "<group>"; };
+		56C6EA2F1ED73A4200617969 /* PlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5625F6961EDBF7D600B91D52 /* Photos.framework in Frameworks */,
+				56C6EA251ED738FF00617969 /* AssetsLibrary.framework in Frameworks */,
+				56C6EA261ED738FF00617969 /* AVFoundation.framework in Frameworks */,
+				56C6EA271ED738FF00617969 /* CoreMedia.framework in Frameworks */,
+				56C6EA281ED738FF00617969 /* MediaPlayer.framework in Frameworks */,
+				56C6EA291ED738FF00617969 /* MobileCoreServices.framework in Frameworks */,
+				56C6EA2A1ED738FF00617969 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,7 @@
 				56C6EA041ED738A600617969 /* VideoPlayRecordTests */,
 				56C6EA0F1ED738A600617969 /* VideoPlayRecordUITests */,
 				56C6E9EE1ED738A600617969 /* Products */,
+				56C6EA1E1ED738FF00617969 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +131,9 @@
 				56C6E9F71ED738A600617969 /* Assets.xcassets */,
 				56C6E9F91ED738A600617969 /* LaunchScreen.storyboard */,
 				56C6E9FC1ED738A600617969 /* Info.plist */,
+				56C6EA2B1ED73A1900617969 /* RecordVideoViewController.swift */,
+				56C6EA2D1ED73A3000617969 /* MergeVideoViewController.swift */,
+				56C6EA2F1ED73A4200617969 /* PlayVideoViewController.swift */,
 			);
 			path = VideoPlayRecord;
 			sourceTree = "<group>";
@@ -123,6 +154,20 @@
 				56C6EA121ED738A600617969 /* Info.plist */,
 			);
 			path = VideoPlayRecordUITests;
+			sourceTree = "<group>";
+		};
+		56C6EA1E1ED738FF00617969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5625F6951EDBF7D600B91D52 /* Photos.framework */,
+				56C6EA1F1ED738FF00617969 /* AssetsLibrary.framework */,
+				56C6EA201ED738FF00617969 /* AVFoundation.framework */,
+				56C6EA211ED738FF00617969 /* CoreMedia.framework */,
+				56C6EA221ED738FF00617969 /* MediaPlayer.framework */,
+				56C6EA231ED738FF00617969 /* MobileCoreServices.framework */,
+				56C6EA241ED738FF00617969 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +308,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56C6E9F31ED738A600617969 /* ViewController.swift in Sources */,
+				56C6EA2C1ED73A1900617969 /* RecordVideoViewController.swift in Sources */,
 				56C6E9F11ED738A600617969 /* AppDelegate.swift in Sources */,
+				56C6EA301ED73A4200617969 /* PlayVideoViewController.swift in Sources */,
+				56C6EA2E1ED73A3000617969 /* MergeVideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +562,7 @@
 				56C6EA171ED738A600617969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56C6EA181ED738A600617969 /* Build configuration list for PBXNativeTarget "VideoPlayRecordTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +571,7 @@
 				56C6EA1A1ED738A600617969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56C6EA1B1ED738A600617969 /* Build configuration list for PBXNativeTarget "VideoPlayRecordUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +580,7 @@
 				56C6EA1D1ED738A600617969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

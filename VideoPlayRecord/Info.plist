@@ -34,5 +34,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>VideoPlayRecord would like to access your Photo Album.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>VideoPlayRecord would like to access your Camera to record Video.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>VideoPlayRecord would like to access your Microphone to record Video.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>VideoPlayRecord would like to access your Microphone to record Video.</string>
 </dict>
 </plist>
